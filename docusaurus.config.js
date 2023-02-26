@@ -72,35 +72,41 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'whatsnew',
             position: 'left',
             label: 'What\'s New',
           },
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'overview/intro',
             position: 'left',
             label: 'Overview',
           },
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'quick-start/intro',
+            position: 'left',
+            label: 'Quick Start',
+          },
+          {
+            type: 'doc',
+            docId: 'tutorials/intro',
             position: 'left',
             label: 'Tutorials',
           },
           
           {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'FAQ',
-          },
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          // {
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'left',
+          //   label: 'FAQ',
+          // },
+          // {
+          //   href: 'https://github.com/facebook/docusaurus',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {
@@ -115,11 +121,11 @@ const config = {
               },
               {
                 label: 'Overview',
-                to: '/docs/intro',
+                to: '/docs/overview/intro',
               },
               {
                 label: 'Tutorials',
-                to: '/docs/intro',
+                to: '/docs/tutorials/intro',
               },
             ],
           },
