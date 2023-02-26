@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'Fortify Dev Guide',
+  tagline: 'Automations and Integrations',
+  favicon: 'img/fortify.png',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-test-site.com',
@@ -64,19 +64,38 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Fortify Dev Guides',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Open Text logo',
+          src: 'img/cyberres-opentext.png',
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'What\'s New',
           },
+          {
+            type: 'doc',
+            docId: 'intro',
+            position: 'left',
+            label: 'Overview',
+          },
+          {
+            type: 'doc',
+            docId: 'intro',
+            position: 'left',
+            label: 'Tutorials',
+          },
+          
           {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            type: 'doc',
+            docId: 'intro',
+            position: 'left',
+            label: 'FAQ',
+          },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -91,7 +110,15 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'What\'s New',
+                to: '/docs/intro',
+              },
+              {
+                label: 'Overview',
+                to: '/docs/intro',
+              },
+              {
+                label: 'Tutorials',
                 to: '/docs/intro',
               },
             ],
@@ -100,17 +127,18 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'CyberRes Fortify',
+                href: 'https://community.microfocus.com/cyberres/fortify/',
               },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
+              
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/OpenText',
               },
+              {
+                label: 'Fortify Unplugged',
+                href: 'https://www.youtube.com/c/FortifyUnplugged'
+              }
             ],
           },
           {
