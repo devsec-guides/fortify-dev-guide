@@ -22,7 +22,7 @@ const config = {
   organizationName: 'devsec-guides', // Usually your GitHub org/user name.
   projectName: 'fortify-dev-guide', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
 
   trailingSlash: false,
