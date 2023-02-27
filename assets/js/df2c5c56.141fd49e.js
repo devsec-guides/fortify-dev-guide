@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfortify_dev_guide_new=self.webpackChunkfortify_dev_guide_new||[]).push([[5921],{3110:e=>{e.exports=JSON.parse('{"label":"facebook","permalink":"/fortify-dev-guide/blog/tags/facebook","allTagsPath":"/fortify-dev-guide/blog/tags","count":1}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfortify_dev_guide_new=self.webpackChunkfortify_dev_guide_new||[]).push([[6243],{227:e=>{e.exports=JSON.parse('{"permalink":"/fortify-dev-guide/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfortify_dev_guide_new=self.webpackChunkfortify_dev_guide_new||[]).push([[3711],{2357:e=>{e.exports=JSON.parse('{"label":"hola","permalink":"/fortify-dev-guide/blog/tags/hola","allTagsPath":"/fortify-dev-guide/blog/tags","count":1}')}}]);
