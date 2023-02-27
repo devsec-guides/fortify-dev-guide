@@ -4,46 +4,77 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Fortify Platform',
+    Svg: require('@site/static/img/cyberres.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Holistic, inclusive, and extensible application security platform to orchestrate and guide your AppSec journey.  
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Language coverage ',
+    Svg: require('@site/static/img/cyberres.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Accurate support for 30+ major languages and their frameworks, with agile updates backed by the industry-leading Software Security Research (SSR) team.
       </>
     ),
   },
+
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Integrations',
+    Svg: require('@site/static/img/cyberres.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Find issues early and often and fix them as part of the development testing cycles. Our integration ecosystem is easy for developers to use, allowing for a more secure software supply chain and maturity at scale.
       </>
     ),
   },
+
+  {
+    title: 'SAST',
+    Svg: require('@site/static/img/cyberres.svg').default,
+    description: (
+      <>
+        Automated static code analysis helps developers eliminate vulnerabilities and build secure software with Static Code Analyzer.
+      </>
+    ),
+  },
+
+  {
+    title: 'DAST',
+    Svg: require('@site/static/img/cyberres.svg').default,
+    description: (
+      <>
+        WebInspect dynamic testing analyzes applications in their running state and simulates attacks against an application to find vulnerabilities.
+      </>
+    ),
+  },
+
+  {
+    title: 'Software Composition Analysis',
+    Svg: require('@site/static/img/cyberres.svg').default,
+    description: (
+      <>
+        Integrated results deliver one platform for remediation, reporting, and analytics of open source and custom code.
+      </>
+    ),
+  },
+
 ];
 
 function Feature({Svg, title, description}) {
   return (
     <div className={clsx('col col--4')}>
+      <div className={styles.featureItem}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>
+      </div>
       </div>
     </div>
   );
